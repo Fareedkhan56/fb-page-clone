@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    height: 80px;
+    width: 100%;
+    background-color: #3b5998;
+    color: white;
+}
+.forgetpass{
+    font-size: 11px;
+    margin: 1px 0px 0px 40px;
+    color: white;
+    text-decoration: none;
+}
+.forgetpass:hover{
+    color: #520b85;
+    background: #3b5998;
+}
+.facebook{
+    font-size: 40px;
+    padding: 10px 0px 0px 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.mainform{
+    display: flex;
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    left: 58%;
+    top: 15px;
+}
+.email{
+    padding-left: 10px;
+}
+.font{
+    font-size: 13px;
+    padding-bottom: 4px;
+    color: white;
+    margin-left: 30px;
+}
+.maininput{
+    height: 23px;
+    width: 150px;
+    padding-left: 15px;
+    border: 1px solid black;
+    outline: none;
+    margin-left: 30px;
+}
+.login{
+    height: 24px;
+    width: 50px;
+    font-weight: 10px;
+    margin-left: 15px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    background-color: #2d5bba;
+    border: 1px solid #224285;
+}
+.login:hover{
+    background-color: #385998;
+}
+
+.maintext{
+    margin: 100px 0px 0px 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+.mainbody{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 57%;
+}
+.signup{
+    margin-top: 40px;
+    font-size: 40px;
+}
+.itsfree{
+    margin-top: 10px;
+    font-size: 18px;
+}
+section{
+    display: flex;
+}
+p{
+    font-size: 16px;
+}
+
+.signupmain>div>input{
+    margin-top: 30px;
+    height: 38px;
+    width: 190px;
+    padding-left: 10px;
+    font-size: 18px;
+    border: 1px solid silver;
+    border-radius: 4px;
+}
+.lastname{
+    margin-left: 15px;
+}
+.signupmain>div>.pass-email{
+    margin-top: 20px;
+    width: 410px;
+}
+
+.birthday{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 10px;
+    color:gray ;
+}
+.birthdate{
+    margin-top: 5px;
+}
+.birthdate>select{
+    height: 28px;
+}
+.birthhint{
+   margin-left: 15px;
+    text-decoration: none;
+    font-size: 11px;
+}
+span>input{
+    margin-top: 20px;
+}
+span{
+    padding-left: 20px;
+}
+.agreement{
+    margin-top: 20px;
+    font-size: 12px;
+}
+.agreement>a{
+    text-decoration: none;
+}
+.signupbutton{
+    margin-top: 10px;
+    background-color: #00970a;
+    color: white;
+    height: 38px;
+    width: 170px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 3px;
+    outline: none;
+}
+.signupbutton:hover{
+    background-color: #00b70c;
+}
